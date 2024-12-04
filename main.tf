@@ -9,4 +9,3 @@ resource "aws_s3_bucket" "bucket2" {
 provider "aws" {
     region = "us-east-1"
 }
-
