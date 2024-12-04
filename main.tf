@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "bucket1" {
-	bucket = "neeha-first-bucket"
+	bucket = "Demo-first-bucket"
 }
 
 resource "aws_s3_bucket" "bucket2" {
-    
+        bucket = "Demo-second-bucket"    
 }
 
 provider "aws" {
